@@ -97,3 +97,18 @@ for name in names:
     final_bill.update({name: {'meals': meals, 'price': prices}})
 
 print(final_bill)
+
+
+# ---------- Exercise number 6 ----------
+print('Exercise number 6')
+api_data = {
+    'data': [1, 2, 'asd', [2, 3, 4, 5]],
+    'nested_analysis': {
+        'analysis_1': [1, 10, 15, 120.2, '120'],
+        'analysis_2': [10, 100, 'test', 200, 300]
+    },
+    'probes': [['probe_1', 'probe_2'], 'probe_3']
+}
+
+for k, v in api_data.items():
+    pass
