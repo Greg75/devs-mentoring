@@ -94,7 +94,8 @@ for name in names:
         if bill_item[0] == name:
             meals.append(bill_item[1])
             prices += bill_item[2]
-    final_bill.update({name: {'meals': meals, 'price': prices}})
+
+    final_bill[name] = {'meals': meals, 'price': prices}
 
 print(final_bill)
 
